@@ -6,7 +6,7 @@ Rock-Paper-Scissors (Client vs Computer)
 
 **ServerG**: Connect with "Client", initialize game and play
 
-**Client**: Request connection from "ServerC" to play game with "ServerG"
+**Client**: Request connection from "ServerC" and play game with "ServerG"
 
 **Compilation & Usage Examples**
 
