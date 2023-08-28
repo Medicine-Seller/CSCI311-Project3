@@ -12,8 +12,8 @@
 #include <arpa/inet.h>
 #include <string.h>
 
-#define SERVERPORT 31277
-#define SERVERIP "199.17.28.80"
+#define SERVERPORT 0         // Change before using
+#define SERVERIP "0.0.0.0"   // Change before using
 #define BUFFERLENGTH 1024
 
 
