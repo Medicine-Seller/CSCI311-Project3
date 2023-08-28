@@ -2,11 +2,11 @@
 
 Rock-Paper-Scissors (client against computer through **sockets**)
 
-**ServerC**: Accept connections and fork ServerG to play with clients
+**ServerC**: Accept "Client" connections, pass "Client" socket, and fork "ServerG" to play with "Client"
 
-**ServerG**: Process game and play with client
+**ServerG**: Connect with "Client", initialize game and play
 
-**Client**: Request connection from ServerC to play game with ServerG
+**Client**: Request connection from "ServerC" to play game with "ServerG"
 
 **Compilation & Usage Examples**
 
