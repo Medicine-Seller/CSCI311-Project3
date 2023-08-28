@@ -1,6 +1,6 @@
 # CSCI311-Project3
 
-Rock-Paper-Scissors (client against computer through **sockets**)
+Rock-Paper-Scissors (client vs computer)
 
 **ServerC**: Accept "Client" connections, pass "Client" socket, and fork "ServerG" to play with "Client"
 
